@@ -10,3 +10,6 @@ spec:
   automations:
   - file: ../../setup/catalogs/data/airbyte.yaml
     context: ../contexts/airbyte.yaml
+  - file: ../../setup/catalogs/devops/argo-events.yaml
+    context: ../contexts/argo-events.yaml
+    externalDir: ../../catalogs/devops/argo-events
