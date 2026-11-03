@@ -10,3 +10,6 @@ spec:
   automations:
   - file: ../../setup/catalogs/data/airbyte.yaml
     context: ../contexts/airbyte.yaml
+  - file: ../../setup/catalogs/infra/longhorn.yaml
+    context: ../contexts/longhorn.yaml
+    externalDir: ../../catalogs/infra/longhorn
